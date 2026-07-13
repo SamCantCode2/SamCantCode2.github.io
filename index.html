@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CS Portfolio</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        
+        /* Header and Navigation */
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: #3498db 4px solid;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { margin: 10px 0 0; font-size: 1.2rem; opacity: 0.9; }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1a252f;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        nav a:hover { background: #3498db; }
+
+        /* Main Content Container */
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        /* Sections */
+        section {
+            background: #fff;
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Projects Grid */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+        }
+        .card h3 { margin-top: 0; color: #2c3e50; }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card a:hover { text-decoration: underline; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Samhruth</h1>
+        <p>Welcome to my profile!| </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Samhruth. I am a Computer Science major passionate about solving complex problems through efficient code. I specialize in backend architecture and machine learning, and I enjoy building systems from the ground up.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, C++, JavaScript</li>
+                <li><strong>Technologies:</strong> React, Node.js, Git, Linux/Bash</li>
+                <li><strong>Core Focus:</strong> Distributed Systems, Algorithm Optimization, Data Structures</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Project Name 1</h3>
+                    <p>A full-stack web application designed to solve [specific problem]. Handled data pipeline architecture and integrated RESTful APIs.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="card">
+                    <h3>Project Name 2</h3>
+                    <p>An optimization model that reduces processing latency by 30%. Built using Python and deployed in a Dockerized environment.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm currently looking for internship opportunities. Feel free to reach out!</p>
+            <ul>
+                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Samhruth. Built from scratch.</p>
+    </footer>
+</body>
+</html>
