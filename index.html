@@ -182,15 +182,16 @@
         <a href="#about">About</a>
         <a href="#news">News</a>
         <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <div class="container">
         <!-- HERO SECTION -->
         <section id="about" class="hero">
-            <h1>[Your Name]</h1>
+            <h1>Samhruth A.</h1>
             <div class="typewriter" id="typewriter"></div>
-            <p>I am a researcher specializing in artificial intelligence and machine learning. My work primarily focuses on large language model (LLM) efficiency, attention dynamics, and advanced inference optimization.</p>
+            <p>I am a machine learning researcher and software developer passionate about solving complex system bottlenecks. My work spans theoretical LLM optimization—like attention dynamics and memory efficiency—to deploying applied AI architectures for IoT and cybersecurity.</p>
         </section>
 
         <!-- LATEST NEWS TIMELINE -->
@@ -199,15 +200,15 @@
             <ul class="news-list">
                 <li class="news-item">
                     <span class="news-date">April 2026</span>
-                    Benchmarking the Salience-Gated Delta Rule on the LongBench-v2 dataset for million-token context tasks.
+                    Collaborating with J.P. Morgan
                 </li>
                 <li class="news-item">
                     <span class="news-date">April 2026</span>
-                    Drafting detailed academic rebuttals for the PARMANU framework architecture.
+                    Created a position paper on monolithic and mixture of experts architectures and their inefficiencies.
                 </li>
                 <li class="news-item">
-                    <span class="news-date">March 2026</span>
-                    Exploring the tokenization and linguistic challenges specific to Indic languages.
+                    <span class="news-date">Feb 2026</span>
+                    Coompleted the physics of KV cache compression paper.
                 </li>
             </ul>
         </section>
@@ -218,21 +219,46 @@
             
             <div class="paper-card">
                 <h3 class="paper-title">The Limits Of KV Cache Compression</h3>
-                <div class="paper-authors">[Your Name], Collaborator Name</div>
-                <div class="paper-desc">An investigation into the absolute boundaries of Key-Value cache compression in LLMs, introducing a novel Green Inference Protocol to reduce memory overhead during generation.</div>
+                <div class="paper-authors">Samhruth A., Ayan Sengupta</div>
+                <div class="paper-desc">An investigation into the absolute boundaries of Key-Value cache compression in LLMs, measuring the eviction policies and how they affect LLMs through a lens of interpretability and explanability.</div>
                 <div class="tags">
-                    <a href="#" class="tag">PDF</a>
-                    <a href="#" class="tag">Code</a>
+                    <a href="https://arxiv.org/abs/2603.01426" class="tag">Preprint</a>
+                    <a href="https://github.com/SamCantCode2/LCS2_LLMExplainability" class="tag">Code</a>
                 </div>
             </div>
 
             <div class="paper-card">
-                <h3 class="paper-title">PARMANU: A Framework for Heterogeneous Expert Routing</h3>
-                <div class="paper-authors">[Your Name]</div>
-                <div class="paper-desc">Addressing wall-clock efficiency and routing opacity in Mixture-of-Experts (MoE) models through the highly optimized PARMANU framework.</div>
+                <h3 class="paper-title">Plantention: Lightweight Crop Disease Detection</h3>
+                <div class="paper-authors">Samhruth A., Rohan M.</div>
+                <div class="paper-desc">A fairly lightweight crop disease detection model that works on Indian cash crops and uses MobilenetV2 and a modified CBAM network to classify leaf diseases.</div>
                 <div class="tags">
-                    <a href="#" class="tag">Preprint</a>
-                    <a href="#" class="tag">GitHub</a>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S2590123025011508" class="tag">Paper</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERSONAL PROJECTS -->
+        <section id="projects">
+            <h2>Personal Projects</h2>
+            
+            <div class="paper-card">
+                <h3 class="paper-title">Multi-Agent System for Protein Misfolding Analysisr</h3>
+                <div class="paper-desc">An agentic workflow for protein misfolding analysis using amino acid sequencing and possible interactions in its biology. </div>
+                <div class="tags">
+                    <a href="#" class="tag">Multi-Agent Systems</a>
+                    <a href="#" class="tag">Lambda</a>
+                    <a href="#" class="tag">AWS Sagemaker</a>
+                </div>
+            </div>
+
+            <div class="paper-card">
+                <h3 class="paper-title">Human-Plant Interfacing</h3>
+                <div class="paper-desc">A mobile application that allows the user to talk to their plants and learn about them and their condition.</div>
+                <div class="tags">
+                    <a href="#" class="tag">Flutter</a>
+                    <a href="#" class="tag">GCP</a>
+                    <a href="#" class="tag">Gemini API</a>
+                    <a href="#" class="tag">Arduino</a>
                 </div>
             </div>
         </section>
@@ -240,22 +266,23 @@
         <!-- CONTACT -->
         <section id="contact">
             <h2>Get In Touch</h2>
-            <p>I am always open to discussing new ideas regarding LLM inference, theoretical machine learning, or system architecture. Feel free to reach out.</p>
+            <p>I am always open to discussing new ideas and meeting new people!! Feel free to reach out :D</p>
             <p>
-                <a href="mailto:your.email@example.com" style="color: var(--accent); text-decoration: none;">your.email@example.com</a> • 
-                <a href="https://github.com/yourusername" style="color: var(--accent); text-decoration: none;">GitHub</a>
+                <a href="mailto:samhruth@gmail.com" style="color: var(--accent); text-decoration: none;">Email</a> • 
+                <a href="https://github.com/SamCantCode2" style="color: var(--accent); text-decoration: none;">GitHub</a>
+                <a href="https://scholar.google.com/citations?hl=en&user=KeG9gScAAAAJ&view_op=list_works" style="color: var(--accent); text-decoration: none;">Scholar</a>
             </p>
         </section>
     </div>
 
     <footer>
-        &copy; 2026 [Your Name]. All rights reserved.
+        &copy; 2026 Samhruth Ananthanarayanan. All rights reserved.
     </footer>
 
     <!-- INTERACTIVE JAVASCRIPT -->
     <script>
         // Typewriter Effect Logic
-        const textToType = "> ML Researcher | Systems Engineer | Problem Solver_";
+        const textToType = "> LLM Researcher | AI Engineer | Data Science Enthusiast_";
         const typeContainer = document.getElementById('typewriter');
         let i = 0;
 
